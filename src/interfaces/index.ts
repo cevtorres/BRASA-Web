@@ -49,7 +49,56 @@ export interface EBoardData {
   officerLinkedIn?: string;
 }
 
+// Original Board Data
 export interface BoardData {
+  image: StaticImageData;
+  imageAlt: string;
+  officerName: string;
+  officerTitle: string;
+}
+
+// Tech Team
+export interface TechTeamData {
+  image: StaticImageData;
+  imageAlt: string;
+  officerName: string;
+  officerTitle: string;
+}
+
+// Marketing
+export interface MarketingData {
+  image: StaticImageData;
+  imageAlt: string;
+  officerName: string;
+  officerTitle: string;
+}
+
+// Events
+export interface EventsData {
+  image: StaticImageData;
+  imageAlt: string;
+  officerName: string;
+  officerTitle: string;
+}
+
+// Professional Development
+export interface PDData {
+  image: StaticImageData;
+  imageAlt: string;
+  officerName: string;
+  officerTitle: string;
+}
+
+// Finance
+export interface FinanceData {
+  image: StaticImageData;
+  imageAlt: string;
+  officerName: string;
+  officerTitle: string;
+}
+
+// Leadership
+export interface LeadershipData {
   image: StaticImageData;
   imageAlt: string;
   officerName: string;

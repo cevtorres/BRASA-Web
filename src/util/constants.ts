@@ -79,9 +79,14 @@ import {
   BoardData,
   EBoardData,
   EventCardImageObject,
+  EventsData,
+  FinanceData,
   LandingPageEventsInfo,
+  MarketingData,
   MobileSidebarData,
+  PDData,
   PrevBoardTabs,
+  TechTeamData,
   UpcomingEventsData,
 } from "@interfaces";
 import { getApiInstanceUrl, getWebInstanceUrl } from "./instanceUrl";
@@ -692,6 +697,122 @@ export const BOARD_MEMBERS: BoardData[] = [
     imageAlt: "Pedro Evangelista Picture",
     officerTitle: "Finance Analyst",
     officerName: "Pedro Evangelista",
+  },
+];
+
+// Store Tech Team members info
+export const TECH_MEMBERS: TechTeamData[] = [
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+  {
+    image: carlos_pic,
+    imageAlt: "Carlos Eduardo Picture",
+    officerTitle: "Technology Analyst",
+    officerName: "Carlos Eduardo Torres",
+  },
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+];
+
+// Store Events members info
+export const EVENTS_MEMBERS: EventsData[] = [
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+  {
+    image: carlos_pic,
+    imageAlt: "Carlos Eduardo Picture",
+    officerTitle: "Technology Analyst",
+    officerName: "Carlos Eduardo Torres",
+  },
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+];
+
+// Store PD members info
+export const PD_MEMBERS: PDData[] = [
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+  {
+    image: carlos_pic,
+    imageAlt: "Carlos Eduardo Picture",
+    officerTitle: "Technology Analyst",
+    officerName: "Carlos Eduardo Torres",
+  },
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+];
+
+// Store Marketing members info
+export const MARKETING_MEMBERS: MarketingData[] = [
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+  {
+    image: carlos_pic,
+    imageAlt: "Carlos Eduardo Picture",
+    officerTitle: "Technology Analyst",
+    officerName: "Carlos Eduardo Torres",
+  },
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+];
+
+// Store Finance members info
+export const FINANCE_MEMBERS: FinanceData[] = [
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
+  },
+  {
+    image: carlos_pic,
+    imageAlt: "Carlos Eduardo Picture",
+    officerTitle: "Technology Analyst",
+    officerName: "Carlos Eduardo Torres",
+  },
+  {
+    image: paulo_pic,
+    imageAlt: "Paulo Picture",
+    officerTitle: "Tech Team Analyst",
+    officerName: "Paulo Nascimento",
   },
 ];
 
